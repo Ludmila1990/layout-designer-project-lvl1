@@ -1,6 +1,11 @@
 /** CSS STYLE **/
 
-html, body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -10,10 +15,14 @@ html, body {
 h1, h2, h3 {
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
+    font-weight: 400;
 }
 
 h1 {
     font-size: 72px;
+    text-align: left;
+    z-index: 1;
+    color: #FE8A02;
 }
 
 h2 {
@@ -24,9 +33,79 @@ h3 {
     font-size: 34px;
 }
 
-section {
-    width: 1110px;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+header {
+    background: #f5f4f0;
+}
+
+.bg-main {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-main::before {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10%;
+
+    content: "";
+}
+
+.dark {
+    color: #2A2626;
+}
+
+.container {
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 165px;
+    padding-right: 166px;
+}
+
+.img_header {
+    position: absolute;
+
+    height: 525px;
+    top: 55px;
+    right: -270px;
+}
+
+.content {
+    display: flex;
+    
+}
+
+.header-text {
+    flex-basis: 50%;
+    margin-top: 190px;
+}
+
+.header-text:nth-child(1) {
+    margin-right: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #FE8A02; 
+    margin-top: 40px;
+    padding: 12px 24px 12px 24px;
+    color: #fff; 
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #EA7600;
 }
