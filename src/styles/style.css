@@ -35,12 +35,16 @@ h3 {
 }
 
 h4 {
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 120%;
     text-transform: uppercase;
+}
+
+img {
+    vertical-align: middle;
 }
 
 .bg-main {
@@ -201,8 +205,6 @@ h4 {
     color: #42413C;
 }
 
-
-
 .card h2 {
     font-size: 64px;
     padding-bottom: 40px;
@@ -237,60 +239,60 @@ h4 {
     height: 905px;
 }
 
-.ikea_photo {
-    position: absolute;
-    width: 578px;
-    height: 434px;
-    left: 165px;
-    top: 100px;
+.info_block {
+    display: flex;
+}
 
+.img_block {
+    width: calc(50% + 23px);
     filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+.text_block {
+    width: calc(50% - 47px);
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+
 .title {
-    font-size: 24px;
     font-family: "Neucha", cursive;
-    line-height: 29px;
-    color: #908D8B;
-
-    padding-left: 608px;   
-}
-
-#ikea_effect h2 {
-    padding-left: 608px;
-}
-
-.nav_text {
-    font-size: 34px;
     font-style: normal;
     font-weight: normal;
-    line-height: 40.8px;
-    font-family: "Neucha", cursive;
-    color: #2A2626;
-    padding-left: 608px;
-    margin-top: 30px;
+    font-size: 24px;
+    line-height: 120%;
+    color: #908D8B;
 }
 
-.rectangle_mini {
+.description {
+    margin-top: 30px;
+    font-family: "Neucha", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 120%;
+    color: #2A2626;
+}
+
+.line-block {
     display: flex;
+    width: 100%;
     box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 10px;
-    height: 26px;
-    margin-top: 283px;
-    align-items: center;
 }
 
 .brown {
     background: #B09A81;
-}
-
-.white_text {
     color: #FFFFFF;
 }
 
 .content_text {
-    flex-basis: 50%; 
-    margin-top: 20px;
+    flex-basis: 50%;
 }
 
 .content_text:nth-child(1) {
