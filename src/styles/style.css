@@ -50,8 +50,6 @@ img {
 .bg-main {
     position: relative;
     overflow: hidden;
-
-    background: #f5f4f0;
 }
 
 .bg-main::before {
@@ -66,6 +64,14 @@ img {
     opacity: 10%;
 
     content: "";
+}
+
+.bg-light {
+    background: #f5f4f0;
+}
+
+.bg-dark {
+    background: #B09A81;
 }
 
 .dark {
@@ -231,10 +237,6 @@ img {
     padding-top: 200px;
 }
 
-.white {
-    color: #FFFFFF;
-}
-
 #ikea_effect {
     height: 905px;
 }
@@ -275,6 +277,10 @@ img {
     color: #2A2626;
 }
 
+.white_text {
+    color: #FFFFFF;
+}
+
 .line-block {
     display: flex;
     width: 100%;
@@ -297,4 +303,13 @@ img {
 
 .content_text:nth-child(1) {
     margin-right: 30px;
+}
+
+#premature-optimization {
+    height: 855px;
+}
+ 
+.white_block {
+    background: #FFFFFF;
+    color: #B09A81;
 }
