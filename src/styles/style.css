@@ -17,8 +17,8 @@ body {
 h1,
 h2,
 h3 {
-  font-weight: 400;
-  font-family: Neucha, cursive;
+  font-weight: normal;
+  font-family: "Neucha", sans-serif;
   line-height: 120%;
 }
 
@@ -64,8 +64,7 @@ img {
 }
 
 .content-text {
-  justify-content: space-between;
-  width: calc(50% - 15px);
+  flex-basis: 50%;
 }
 
 .content-text:nth-child(1) {
