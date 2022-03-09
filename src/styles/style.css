@@ -344,16 +344,20 @@ img {
   display: flex;
 
   justify-content: space-between;
+  box-sizing: border-box;
 
-  height: 190px;
   width: 1110px;
+  height: 190px;
 
   padding: 0 55px;
 }
 
+.footer-text {
+  flex-basis: 50%;
+}
+
 .footer-title {
-  margin-top: auto;
-  margin-bottom: auto;
+  padding-top: 55px;
 }
 
 .mail-block {
@@ -363,15 +367,15 @@ img {
 }
 
 .footer-email-title {
-  margin-top: 35px;
-  margin-bottom: 7px;
+  margin-top: 38px;
+  margin-bottom: 9px;
 
   font-size: 18px;
 }
 
 .form {
   display: flex;
-  width: 100%;
+  width: 96%;
 }
 
 .form input {
@@ -410,10 +414,12 @@ img {
   background: #ea7600;
 }
 
-.footer-text {
+.copyright {
   width: 100%;
 
   margin-top: 60px;
+
+  font-size: 14px;
 
   line-height: 2.5em;
   text-align: center;
@@ -427,6 +433,10 @@ img {
 
 .margin-right {
   margin-right: 30px;
+}
+
+.margin-left {
+  margin-left: 20px;
 }
 
 .z-index-1 {
